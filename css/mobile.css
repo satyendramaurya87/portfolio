@@ -1,0 +1,77 @@
+@media only screen and (max-width: 768px) {
+    .demo-3 {
+        --font-size-menu: 6vmax;
+    }
+    .brand-logo {
+        width: 9.5vw;
+        height: 9.5vw;
+        top: 1.5em;
+        left: 8vw;
+    }
+    .social-icons-wrapper {
+        margin-left: 3.5vw;
+        bottom: 5vh;
+        left: 2vw;
+        top: unset;
+        height: fit-content;
+    }
+    .social-icons {
+        flex-direction: row;
+    }
+    .social-icons>i {
+        font-size: 16px !important;
+        margin-right: 30px;
+        margin-bottom: 0;
+    }
+    .vertical-line {
+        display: none;
+    }
+    .frank {
+        width: 35vw;
+    }
+    /*******************************************************************************************************************
+                                                    HOME SECTION STYLES
+     ******************************************************************************************************************/
+    .home-container {
+        flex-direction: column-reverse;
+        padding: 19vh 8vw;
+    }
+    .home-container .logo {
+        width: 15vw;
+    }
+    .home-container .summary {
+        margin-bottom: 30px;
+    }
+    .home-vector {
+        margin-bottom: 30px;
+    }
+    .vector-container {
+        padding: 5vw;
+    }
+    /*******************************************************************************************************************
+                                                    ABOUT SECTION STYLES
+     ******************************************************************************************************************/
+    #about .main-container {
+        flex-direction: column;
+    }
+    #about .about-container__left-section {
+        padding-top: 9vh;
+        padding-bottom: 2vh;
+    }
+    #about .about-container__left-section .job-profile {
+        margin-bottom: 10px;
+    }
+    .fun-facts {
+        margin: 0 9vw;
+    }
+    #about .about-container__left-section .fun-facts .fun-fact i {
+        font-size: 36px !important;
+    }
+    #about .about-container__right-section {
+        padding-top: 3vh;
+    }
+    #about .about-vector {
+        flex: none;
+        display: none;
+    }
+}
